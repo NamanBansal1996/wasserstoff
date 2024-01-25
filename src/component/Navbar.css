@@ -1,0 +1,19 @@
+.Navbar{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo{
+    height: 40px;
+}
+.searchbar{
+    padding: 8px;
+    /* border: solid;
+    background-color: #8080801c;
+    border-radius: 2px ; */
+    margin-left: 10px;
+    width: 200px;
+    }
