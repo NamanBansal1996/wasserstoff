@@ -1,10 +1,14 @@
 import React from 'react'
+// import myImage from './component/wasserstoff_logo.jpg'
+
 
 export default function Navbar() {
   return (
+    <>
     <div className='navbar'>
       <div className='logo'>
-        <p>logo</p>
+        {/* <img src={myImage} alt="logo"/> */}
+        <p>WasserStoff</p>
       </div>
       <input type='text'/>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="search w-6 h-6">
@@ -27,6 +31,10 @@ export default function Navbar() {
 </svg>
 </div>
 </div>
+<div className='header'>
+  <p>WSTFFRONTEND-HACKATHON</p>
+</div>
+</>
   )
 }
 // checking github

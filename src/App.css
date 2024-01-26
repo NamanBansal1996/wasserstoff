@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family:'Poppins', sans-serif;
-  /* background-color: red; */
+  
 }
 main{
   width:100vw;
@@ -26,19 +26,25 @@ svg{
   font-weight: 900;
   text-transform: uppercase;
 }
+.navbar .logo img{
+  height: 50px;
+  width: 50px;;
+}
 .navbar input{
-  width: 100px;
   padding: 6px;
   width:200px;
   border-radius: 15px;
   border: none;
   background-color: rgb(238, 237, 237);
-
 }
 .navbar .search{
   position: relative;
-  transform:translateX(-160px);
+  transform:translateX(-140px);
   cursor: pointer;
+}
+.links{
+  
+  margin-left: 0;
 }
 
 .links ul{
@@ -64,3 +70,39 @@ color: black;
   align-items: center;
   justify-content: space-between;
 }
+.header{
+ background-color: rgb(238, 237, 237);
+ height: 20px;
+ margin-left: 20px;
+}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+}
+.sidebar{
+  width: 20%;
+  margin-left: 20px;
+  height: 80vh;
+  
+}
+.sidebar .totalusers{
+  border: 2px solid black ;
+  margin-top:40px;
+}
+.sidebar .count{
+  border: 2px solid rgb(37, 153, 53) ;
+}
+.sidebar .earning{
+  border: 2px solid  rgb(119, 116, 128) ;
+}
+.sidebar .users{
+  border: 2px solid rgb(194, 155, 165) ;
+}
+.map{
+  flex: 1;
+  height: 80vh;
+  background-color: brown;
+}
+
